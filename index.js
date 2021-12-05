@@ -1,7 +1,7 @@
 // commonJs approach
-const test = require("./test");
-const oddEven = require("./script");
+// const { valLength, checkBool } = require("./script");
+const { valLength, checkBool } = require("./test");
 
-test("testing!!");
-
-console.log(module);
+// valLength(56);
+// checkBool();
+// checkOddOrEven(5);

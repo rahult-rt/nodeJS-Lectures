@@ -1,9 +1,16 @@
-const checkOddOrEven = (num) => {
-  if (num % 2 === 0) {
-    console.log("Num is even!!");
-  } else {
-    console.log("Num is odd!!");
-  }
+//**Named Export**
+// exports.checkOddOrEven = (num) => {
+//   if (num % 2 === 0) {
+//     console.log("Num is even!!");
+//   } else {
+//     console.log("Num is odd!!");
+//   }
+// };
+
+exports.valLength = (val) => {
+  console.log("valleng is ==", val);
 };
 
-module.exports = checkOddOrEven;
+exports.checkBool = () => {
+  console.log("testing bool");
+};
